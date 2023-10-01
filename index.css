@@ -1,0 +1,2146 @@
+body {
+    margin: 0;
+}
+
+h {
+    font-weight: 500;
+}
+
+@keyframes slides {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 100
+    }
+}
+
+.f {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+}
+
+.img {
+    height: 200px;
+}
+
+.hidHead {
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+.main-bg {
+    background-color: #b66e22;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    overflow: auto;
+    padding: 20px;
+}
+
+.indian-bg {
+    width: 700px;
+    height: 670px;
+    box-shadow: -20px -20px 20px 20px;
+    background-image: url('images/insia.jpg');
+    border-style: solid;
+    background-size: cover;
+    border-color: transparent;
+    border-width: 6px;
+    border-radius: 16px;
+    padding-top: 40px;
+    margin: auto;
+    display: flex;
+    overflow: none;
+    flex-direction: column;
+}
+
+.jak {
+    display: block;
+    margin-left: 240px;
+    font-family: "Roboto";
+    font-size: 20px;
+    transition: all 0s ease-out 0s;
+    display: block;
+    width: 180px;
+}
+
+.JAKhidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 200px;
+    background-color: black;
+    animation: slides none ease-out 4s;
+}
+
+.jak:hover~.JAKhidden {
+    display: block;
+    ~.o {
+        display: none;
+    }
+    ~.hp {
+        display: none;
+    }
+    ~.pun {
+        display: none;
+    }
+    ~.h {
+        display: none;
+    }
+    ~.up {
+        display: none;
+    }
+    ~.r {
+        display: none;
+    }
+    ~.uk {
+        display: none;
+    }
+    ~.ap {
+        display: none;
+    }
+    ~.s {
+        display: none;
+    }
+    ~.a {
+        display: none;
+    }
+    ~.n {
+        display: none;
+    }
+    ~.r {
+        display: none;
+    }
+    ~.b {
+        display: none;
+    }
+    ~.m {
+        display: none;
+    }
+    ~.ma {
+        display: none;
+    }
+    ~.j {
+        display: none;
+    }
+    ~.mp {
+        display: none;
+    }
+    ~.g {
+        display: none;
+    }
+    ~.t {
+        display: none;
+    }
+    ~.mz {
+        display: none;
+    }
+    ~.wb {
+        display: none;
+    }
+    ~.c {
+        display: none;
+    }
+    ~.mh {
+        display: none;
+    }
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.hp {
+    display: block;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: 24px;
+    margin-left: 260px;
+    width: 120px;
+}
+
+.HPhidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 200px;
+    animation: slides none ease-out 4s;
+    background-color: black;
+}
+
+.hp:hover~.HPhidden {
+    display: block;
+    ~.o {
+        display: none;
+    }
+    ~.pun {
+        display: none;
+    }
+    ~.h {
+        display: none;
+    }
+    ~.up {
+        display: none;
+    }
+    ~.r {
+        display: none;
+    }
+    ~.uk {
+        display: none;
+    }
+    ~.ap {
+        display: none;
+    }
+    ~.s {
+        display: none;
+    }
+    ~.a {
+        display: none;
+    }
+    ~.n {
+        display: none;
+    }
+    ~.r {
+        display: none;
+    }
+    ~.b {
+        display: none;
+    }
+    ~.m {
+        display: none;
+    }
+    ~.ma {
+        display: none;
+    }
+    ~.j {
+        display: none;
+    }
+    ~.mp {
+        display: none;
+    }
+    ~.g {
+        display: none;
+    }
+    ~.t {
+        display: none;
+    }
+    ~.mz {
+        display: none;
+    }
+    ~.wb {
+        display: none;
+    }
+    ~.c {
+        display: none;
+    }
+    ~.mh {
+        display: none;
+    }
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.pun {
+    display: block;
+    font-family: "Roboto";
+    font-size: 14px;
+    margin-top: 0px;
+    margin-left: 180px;
+    width: 60px;
+}
+
+.PUNhidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 200px;
+    background-color: black;
+    animation: slides none ease-out 4s;
+}
+
+.pun:hover~.PUNhidden {
+    display: block;
+    ~.o {
+        display: none;
+    }
+    ~.h {
+        display: none;
+    }
+    ~.up {
+        display: none;
+    }
+    ~.r {
+        display: none;
+    }
+    ~.uk {
+        display: none;
+    }
+    ~.ap {
+        display: none;
+    }
+    ~.s {
+        display: none;
+    }
+    ~.a {
+        display: none;
+    }
+    ~.n {
+        display: none;
+    }
+    ~.r {
+        display: none;
+    }
+    ~.b {
+        display: none;
+    }
+    ~.m {
+        display: none;
+    }
+    ~.ma {
+        display: none;
+    }
+    ~.j {
+        display: none;
+    }
+    ~.mp {
+        display: none;
+    }
+    ~.g {
+        display: none;
+    }
+    ~.t {
+        display: none;
+    }
+    ~.mz {
+        display: none;
+    }
+    ~.wb {
+        display: none;
+    }
+    ~.c {
+        display: none;
+    }
+    ~.mh {
+        display: none;
+    }
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.uk {
+    display: block;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: -2px;
+    margin-left: 300px;
+    width: 60px;
+}
+
+.UKhidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 200px;
+    animation: slides none ease-out 4s;
+    background-color: black;
+}
+
+.uk:hover~.UKhidden {
+    display: block;
+    ~.o {
+        display: none;
+    }
+    ~.h {
+        display: none;
+    }
+    ~.up {
+        display: none;
+    }
+    ~.r {
+        display: none;
+    }
+    ~.ap {
+        display: none;
+    }
+    ~.s {
+        display: none;
+    }
+    ~.a {
+        display: none;
+    }
+    ~.n {
+        display: none;
+    }
+    ~.r {
+        display: none;
+    }
+    ~.b {
+        display: none;
+    }
+    ~.m {
+        display: none;
+    }
+    ~.ma {
+        display: none;
+    }
+    ~.j {
+        display: none;
+    }
+    ~.mp {
+        display: none;
+    }
+    ~.g {
+        display: none;
+    }
+    ~.t {
+        display: none;
+    }
+    ~.mz {
+        display: none;
+    }
+    ~.wb {
+        display: none;
+    }
+    ~.c {
+        display: none;
+    }
+    ~.mh {
+        display: none;
+    }
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.h {
+    display: block;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: -2px;
+    margin-left: 220px;
+    width: 70px;
+}
+
+.Hhidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 200px;
+    background-color: black;
+    animation: slides none ease-out 4s;
+}
+
+.h:hover~.Hhidden {
+    display: block;
+    ~.o {
+        display: none;
+    }
+    ~.mh {
+        display: none;
+    }
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.h:hover~.up {
+    display: none;
+}
+
+.h:hover~.ap {
+    display: none;
+}
+
+.h:hover~.s {
+    display: none;
+}
+
+.h:hover~.a {
+    display: none;
+}
+
+.h:hover~.n {
+    display: none;
+}
+
+.h:hover~.r {
+    display: none;
+}
+
+.h:hover~.b {
+    display: none;
+}
+
+.h:hover~.m {
+    display: none;
+}
+
+.h:hover~.ma {
+    display: none;
+}
+
+.h:hover~.j {
+    display: none;
+}
+
+.h:hover~.mp {
+    display: none;
+}
+
+.h:hover~.g {
+    display: none;
+}
+
+.h:hover~.t {
+    display: none;
+}
+
+.h:hover~.mz {
+    display: none;
+}
+
+.h:hover~.wb {
+    display: none;
+}
+
+.h:hover~.c {
+    display: none;
+}
+
+.ap {
+    display: block;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: -14px;
+    margin-left: 480px;
+    width: 150px;
+}
+
+.APhidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 200px;
+    background-color: black;
+    animation: slides none ease-out 4s;
+}
+
+.ap:hover~.APhidden {
+    display: block;
+    ~.o {
+        display: none;
+    }
+    ~.mh {
+        display: none;
+    }
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.ap:hover~.up {
+    display: none;
+}
+
+.ap:hover~.s {
+    display: none;
+}
+
+.ap:hover~.a {
+    display: none;
+}
+
+.ap:hover~.n {
+    display: none;
+}
+
+.ap:hover~.r {
+    display: none;
+}
+
+.ap:hover~.b {
+    display: none;
+}
+
+.ap:hover~.m {
+    display: none;
+}
+
+.ap:hover~.ma {
+    display: none;
+}
+
+.ap:hover~.j {
+    display: none;
+}
+
+.ap:hover~.mp {
+    display: none;
+}
+
+.ap:hover~.g {
+    display: none;
+}
+
+.ap:hover~.t {
+    display: none;
+}
+
+.ap:hover~.mz {
+    display: none;
+}
+
+.ap:hover~.wb {
+    display: none;
+}
+
+.ap:hover~.c {
+    display: none;
+}
+
+.s {
+    display: block;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: 0px;
+    margin-left: 445px;
+    width: 50px;
+}
+
+.Shidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 200px;
+    background-color: black;
+    animation: slides none ease-out 4s;
+}
+
+.s:hover~.Shidden {
+    display: block;
+    ~.o {
+        display: none;
+    }
+    ~.mh {
+        display: none;
+    }
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.s:hover~.up {
+    display: none;
+}
+
+.s:hover~.a {
+    display: none;
+}
+
+.s:hover~.n {
+    display: none;
+}
+
+.s:hover~.r {
+    display: none;
+}
+
+.s:hover~.b {
+    display: none;
+}
+
+.s:hover~.m {
+    display: none;
+}
+
+.s:hover~.ma {
+    display: none;
+}
+
+.s:hover~.j {
+    display: none;
+}
+
+.s:hover~.mp {
+    display: none;
+}
+
+.s:hover~.g {
+    display: none;
+}
+
+.s:hover~.t {
+    display: none;
+}
+
+.s:hover~.mz {
+    display: none;
+}
+
+.s:hover~.wb {
+    display: none;
+}
+
+.s:hover~.c {
+    display: none;
+}
+
+.up {
+    display: block;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: 0px;
+    margin-left: 300px;
+    width: 90px;
+}
+
+.UPhidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 200px;
+    background-color: black;
+    animation: slides none ease-out 4s;
+}
+
+.up:hover~.UPhidden {
+    display: block;
+    ~.o {
+        display: none;
+    }
+    ~.mh {
+        display: none;
+    }
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.up:hover~.a {
+    display: none;
+}
+
+.up:hover~.n {
+    display: none;
+}
+
+.up:hover~.r {
+    display: none;
+}
+
+.up:hover~.b {
+    display: none;
+}
+
+.up:hover~.m {
+    display: none;
+}
+
+.up:hover~.ma {
+    display: none;
+}
+
+.up:hover~.j {
+    display: none;
+}
+
+.up:hover~.mp {
+    display: none;
+}
+
+.up:hover~.g {
+    display: none;
+}
+
+.up:hover~.t {
+    display: none;
+}
+
+.up:hover~.mz {
+    display: none;
+}
+
+.up:hover~.wb {
+    display: none;
+}
+
+.up:hover~.c {
+    display: none;
+}
+
+.a {
+    display: block;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: -24px;
+    margin-left: 550px;
+    width: 50px;
+}
+
+.Ahidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 200px;
+    background-color: black;
+    animation: slides none ease-out 4s;
+}
+
+.a:hover~.Ahidden {
+    display: block;
+    ~.o {
+        display: none;
+    }
+    ~.mh {
+        display: none;
+    }
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.a:hover~.n {
+    display: none;
+}
+
+.a:hover~.r {
+    display: none;
+}
+
+.a:hover~.b {
+    display: none;
+}
+
+.a:hover~.m {
+    display: none;
+}
+
+.a:hover~.ma {
+    display: none;
+}
+
+.a:hover~.j {
+    display: none;
+}
+
+.a:hover~.mp {
+    display: none;
+}
+
+.a:hover~.g {
+    display: none;
+}
+
+.a:hover~.t {
+    display: none;
+}
+
+.a:hover~.mz {
+    display: none;
+}
+
+.a:hover~.wb {
+    display: none;
+}
+
+.a:hover~.c {
+    display: none;
+}
+
+.n {
+    display: block;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: -16px;
+    margin-left: 610px;
+    width: 70px;
+}
+
+.Nhidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 200px;
+    animation: slides none ease-out 4s;
+    background-color: black;
+}
+
+.n:hover~.Nhidden {
+    display: block;
+    ~.o {
+        display: none;
+    }
+    ~.mh {
+        display: none;
+    }
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.n:hover~.r {
+    display: none;
+}
+
+.n:hover~.b {
+    display: none;
+}
+
+.n:hover~.m {
+    display: none;
+}
+
+.n:hover~.ma {
+    display: none;
+}
+
+.n:hover~.j {
+    display: none;
+}
+
+.n:hover~.mp {
+    display: none;
+}
+
+.n:hover~.g {
+    display: none;
+}
+
+.n:hover~.t {
+    display: none;
+}
+
+.n:hover~.mz {
+    display: none;
+}
+
+.n:hover~.wb {
+    display: none;
+}
+
+.n:hover~.c {
+    display: none;
+}
+
+.r {
+    display: block;
+    font-family: "Roboto";
+    font-size: 26px;
+    margin-top: -26px;
+    margin-left: 120px;
+    width: 60px;
+}
+
+.Rhidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 200px;
+    background-color: black;
+    animation: slides none ease-out 4s;
+}
+
+.r:hover~.Rhidden {
+    display: block;
+    ~.o {
+        display: none;
+    }
+    ~.mh {
+        display: none;
+    }
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.r:hover~.b {
+    display: none;
+}
+
+.r:hover~.m {
+    display: none;
+}
+
+.r:hover~.ma {
+    display: none;
+}
+
+.r:hover~.j {
+    display: none;
+}
+
+.r:hover~.mp {
+    display: none;
+}
+
+.r:hover~.g {
+    display: none;
+}
+
+.r:hover~.t {
+    display: none;
+}
+
+.r:hover~.mz {
+    display: none;
+}
+
+.r:hover~.wb {
+    display: none;
+}
+
+.r:hover~.c {
+    display: none;
+}
+
+.b {
+    display: block;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: -12px;
+    margin-left: 420px;
+    width: 40px;
+}
+
+.Bhidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 10px;
+    border-radius: 12px;
+    animation: slides none ease-out 4s;
+    margin-left: 200px;
+    background-color: black;
+}
+
+.b:hover~.Bhidden {
+    display: block;
+    ~.o {
+        display: none;
+    }
+    ~.mh {
+        display: none;
+    }
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.b:hover~.m {
+    display: none;
+}
+
+.b:hover~.ma {
+    display: none;
+}
+
+.b:hover~.j {
+    display: none;
+}
+
+.b:hover~.mp {
+    display: none;
+}
+
+.b:hover~.g {
+    display: none;
+}
+
+.b:hover~.t {
+    display: none;
+}
+
+.b:hover~.mz {
+    display: none;
+}
+
+.b:hover~.wb {
+    display: none;
+}
+
+.b:hover~.c {
+    display: none;
+}
+
+.m {
+    display: block;
+    font-family: "Roboto";
+    font-size: 12px;
+    margin-top: -26px;
+    margin-left: 530px;
+    width: 44px;
+    font-weight: 700;
+}
+
+.Mhidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 200px;
+    background-color: black;
+    animation: slides none ease-out 4s;
+}
+
+.m:hover~.Mhidden {
+    display: block;
+    ~.o {
+        display: none;
+    }
+    ~.mh {
+        display: none;
+    }
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.m:hover~.ma {
+    display: none;
+}
+
+.m:hover~.j {
+    display: none;
+}
+
+.m:hover~.mp {
+    display: none;
+}
+
+.m:hover~.g {
+    display: none;
+}
+
+.m:hover~.t {
+    display: none;
+}
+
+.m:hover~.mz {
+    display: none;
+}
+
+.m:hover~.wb {
+    display: none;
+}
+
+.m:hover~.c {
+    display: none;
+}
+
+.ma {
+    display: block;
+    font-family: "Roboto";
+    font-size: 12px;
+    margin-left: 600px;
+    width: 30px;
+    font-weight: 700;
+}
+
+.MAhidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: -50px;
+    margin-left: 200px;
+    background-color: black;
+    animation: slides none ease-out 4s;
+}
+
+.ma:hover~.MAhidden {
+    display: block;
+    ~.o {
+        display: none;
+    }
+    ~.mh {
+        display: none;
+    }
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.ma:hover~.j {
+    display: none;
+}
+
+.ma:hover~.mp {
+    display: none;
+}
+
+.ma:hover~.g {
+    display: none;
+}
+
+.ma:hover~.t {
+    display: none;
+}
+
+.ma:hover~.mz {
+    display: none;
+}
+
+.ma:hover~.wb {
+    display: none;
+}
+
+.ma:hover~.c {
+    display: none;
+}
+
+.g {
+    display: block;
+    font-family: "Roboto";
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 105px;
+    width: 60px;
+}
+
+.Ghidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: -80px;
+    animation: slides none ease-out 4s;
+    margin-left: 200px;
+    background-color: black;
+}
+
+.g:hover~.Ghidden {
+    display: block;
+    ~.o {
+        display: none;
+    }
+    ~.mh {
+        display: none;
+    }
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.g:hover~.mp {
+    display: none;
+}
+
+.g:hover~.j {
+    display: none;
+    ;
+}
+
+.g:hover~.t {
+    display: none;
+}
+
+.g:hover~.mz {
+    display: none;
+}
+
+.g:hover~.wb {
+    display: none;
+}
+
+.g:hover~.c {
+    display: none;
+}
+
+.mp {
+    display: block;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: -20px;
+    margin-left: 220px;
+    width: 110px;
+}
+
+.MPhidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: -80px;
+    margin-left: 350px;
+    animation: slides none ease-out 4s;
+    background-color: black;
+}
+
+.mp:hover~.MPhidden {
+    display: block;
+    ~.o {
+        display: none;
+    }
+    ~.mh {
+        display: none;
+    }
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.mp:hover~.j {
+    display: none;
+    ;
+}
+
+.mp:hover~.t {
+    display: none;
+}
+
+.mp:hover~.mz {
+    display: none;
+}
+
+.mp:hover~.wb {
+    display: none;
+}
+
+.mp:hover~.c {
+    display: none;
+}
+
+.j {
+    display: block;
+    font-family: "Roboto";
+    font-size: 12px;
+    margin-top: -40px;
+    margin-left: 410px;
+    width: 30px;
+    font-weight: 700;
+}
+
+.Jhidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: -50px;
+    animation: slides none ease-out 4s;
+    margin-left: 80px;
+    background-color: black;
+}
+
+.j:hover~.Jhidden {
+    display: block;
+    ~.o {
+        display: none;
+    }
+    ~.mh {
+        display: none;
+    }
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.j:hover~.t {
+    display: none;
+}
+
+.j:hover~.mz {
+    display: none;
+}
+
+.j:hover~.wb {
+    display: none;
+}
+
+.j:hover~.c {
+    display: none;
+}
+
+.t {
+    display: block;
+    font-family: "Roboto";
+    font-size: 12px;
+    margin-top: -24px;
+    margin-left: 530px;
+    width: 30px;
+    font-weight: 700;
+}
+
+.Thidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: -100px;
+    margin-left: 200px;
+    background-color: black;
+    animation: slides none ease-out 4s;
+}
+
+.t:hover~.Thidden {
+    display: block;
+    ~.o {
+        display: none;
+    }
+    ~.mh {
+        display: none;
+    }
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.t:hover~.mz {
+    display: none;
+}
+
+.t:hover~.wb {
+    display: none;
+}
+
+.t:hover~.c {
+    display: none;
+}
+
+.mz {
+    display: block;
+    font-family: "Roboto";
+    font-size: 12px;
+    margin-top: 0px;
+    margin-left: 590px;
+    width: 30px;
+    font-weight: 700;
+}
+
+.MZhidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: -100px;
+    margin-left: 200px;
+    background-color: black;
+    animation: slides none ease-out 4s;
+}
+
+.mz:hover~.MZhidden {
+    display: block;
+    ~.o {
+        display: none;
+    }
+    ~.mh {
+        display: none;
+    }
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.mz:hover~.wb {
+    display: none;
+}
+
+.mz:hover~.c {
+    display: none;
+}
+
+.wb {
+    display: block;
+    font-family: "Roboto";
+    font-size: 12px;
+    margin-top: -12px;
+    margin-left: 480px;
+    width: 70px;
+    font-weight: 700;
+}
+
+.WBhidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 100px;
+    margin-top: -100px;
+    background-color: black;
+    animation: slides none ease-out 4s;
+}
+
+.wb:hover~.WBhidden {
+    display: block;
+    ~.mh {
+        display: none;
+    }
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.o {
+        display: none;
+    }
+    ~.c {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.c {
+    display: block;
+    font-family: "Roboto";
+    font-size: 12px;
+    margin-top: 14px;
+    margin-left: 350px;
+    width: 50px;
+    font-weight: 700;
+}
+
+.Chidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-top: -140px;
+    background-color: black;
+    animation: slides none ease-out 4s;
+}
+
+.c:hover~.Chidden {
+    display: block;
+    ~.o {
+        display: none;
+    }
+    ~.mh {
+        display: none;
+    }
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.o {
+    display: block;
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-top: 14px;
+    margin-left: 400px;
+    width: 50px;
+    font-weight: 700;
+}
+
+.Ohidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 60px;
+    margin-top: -160px;
+    background-color: black;
+    animation: slides none ease-out 4s;
+}
+
+.o:hover~.Ohidden {
+    display: block;
+    ~.mh {
+        display: none;
+    }
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.mh {
+    display: block;
+    font-family: "Roboto";
+    font-size: 20px;
+    margin-top: -14px;
+    margin-left: 160px;
+    width: 50px;
+}
+
+.MHhidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 280px;
+    margin-top: -180px;
+    background-color: black;
+    animation: slides none ease-out 4s;
+}
+
+.mh:hover~.MHhidden {
+    display: block;
+    ~.tl {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.tl {
+    display: block;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 300px;
+    width: 80px;
+}
+
+.TLhidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-top: -460px;
+    background-color: black;
+    animation: slides none ease-out 4s;
+}
+
+.tl:hover~.TLhidden {
+    display: block;
+    ~.k {
+        display: none;
+    }
+    ~.aph {
+        display: none;
+    }
+    ~.go {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.go {
+    display: block;
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-top: 22px;
+    margin-left: 150px;
+    width: 20px;
+}
+
+.GOhidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 280px;
+    margin-top: -290px;
+    background-color: black;
+    animation: slides none ease-out 4s;
+}
+
+.go:hover~.GOhidden {
+    display: block;
+    ~.aph {
+        display: none;
+    }
+    ~.k {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.k {
+    display: block;
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 160px;
+    width: 50px;
+}
+
+.Khidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 280px;
+    margin-top: -290px;
+    background-color: black;
+    animation: slides none ease-out 4s;
+}
+
+.k:hover~.Khidden {
+    display: block;
+    ~.aph {
+        display: none;
+    }
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.aph {
+    display: block;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: -50px;
+    margin-left: 280px;
+    width: 110px;
+}
+
+.APHhidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-top: -450px;
+    background-color: black;
+    animation: slides none ease-out 4s;
+}
+
+.aph:hover~.APHhidden {
+    display: block;
+    ~.tn {
+        display: none;
+    }
+    ~.kl {
+        display: none;
+    }
+}
+
+.tn {
+    display: block;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: 60px;
+    margin-left: 280px;
+    width: 100px;
+}
+
+.TNhidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-top: -450px;
+    background-color: black;
+    animation: slides none ease-out 4s;
+}
+
+.tn:hover~.TNhidden {
+    display: block;
+    ~.kl {
+        display: none;
+    }
+}
+
+.kl {
+    display: block;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: -10px;
+    margin-left: 180px;
+    width: 40px;
+}
+
+.KLhidden {
+    display: none;
+    min-height: 380px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-top: -480px;
+    animation: slides none ease-out 4s;
+    background-color: black;
+}
+
+.kl:hover~.KLhidden {
+    display: block;
+}

@@ -1,5 +1,5 @@
 # Internship_Swecha-Project
-Hey Guys! I am Azmatulla a 2nd year B.tech student.This is a project that is done as a part pf my open source contribution program to balaswecha a program organised by Swecha AP which conducted a social internship program in summer of 2023.In this project I have worked with a lot of like minded individuals and shared my thoughts with them and built a useful website to society.
+Hey Guys! I am Azmatulla a 2nd year B.tech student.This is a project that is done as a part of my open source contribution program to balaswecha a program organised by Swecha AP which conducted a social internship program in summer of 2023.In this project I have worked with a lot of like minded individuals and shared my thoughts with them and built a useful website to society.
 
 #project-info
 
